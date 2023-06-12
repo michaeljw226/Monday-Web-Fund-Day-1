@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <!-- heading opener -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<!-- heading closer -->
+<body>
+    <!-- body opener -->
+    <h1>Registration Form</h1>
+    <div>
+    <h3>First Name:*</h3><input type="text" name="first_name">
+    </div>
+    <div>
+    <h3>Last Name:*</h3><input type="text" name="last_name">
+    </div>
+    <div>
+    <h3>Email Address:*</h3><input type="text" name="email_address">
+    </div>
+    <h3>Password:*</h3><input type="" name="password">
+    <h3>Birthday:</h3><input type="date" name="dob">
+    <h3>Gender Identity:</h3>
+        <input type=radio name="font" value="male" id="male"><label for="male">Male</label>
+        <input type=radio name="font" value="female" id="female"><label for="female">Female</label>
+        <input type=radio name="font" value="nonbinary" id="nonbinary"><label for="nonbinary">Non-Binary</label>
+        <input type=radio name="font" value="other" id="other"><label for="other">Other</label>
+        <input type=radio name="font" value="preferNotToSay" id="preferNotToSay"><label for="preferNotToSay">Prefer not to say</label>
+            
+        <!-- why did I not end up needing the "id=accept" portion?-->
+    <h3>A short decription about myself:</h3>
+        <textarea type="comment" cols="20" rows="3"> </textarea>
+    <h3>Favorite Language:</h3>
+        <select name = "favLang">
+            <option value="Javascript">Javascript</option>
+            <option value="CSS">CSS</option>
+            <option value="HTML">HTML</option>
+        </select>
+    <h1></h1>
+        <input type="checkbox" name="addToUpdateList" id="accept"><label for="accept">Yes, I would like to receive periodic email updates</label>
+    <h1></h1>
+        <input type="submit" value="Create Account">
+    </body>
+<!-- body closer -->
+</html>
