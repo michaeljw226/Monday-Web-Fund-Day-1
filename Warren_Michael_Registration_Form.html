@@ -8,49 +8,64 @@
 </head>
 <!-- heading closer -->
 <body>
-    <!-- body opener -->
-    <h1>Registration Form</h1>
-    <div>
-        First Name:* <input type="text" name="first_name">
-        <h1></h1>
-    </div>
-    <div>
-        Last Name:* <input type="text" name="last_name">
-        <h1></h1>
-    </div>
-    <div>
-        Email Address:* <input type="text" name="email_address">
-        <h1></h1>
-    </div>
-    <div>
-        Password:* <input type="" name="password">
-        <h1></h1>
-    </div>
-    <div>
-        Birthday: <input type="date" name="dob">
-    <div>
-        Gender Identity:
-            <input type=radio name="genderIdentity" value="male" id="male"><label for="male">Male</label>
-            <input type=radio name="genderIdentity" value="female" id="female"><label for="female">Female</label>
-            <input type=radio name="genderIdentity" value="nonbinary" id="nonbinary"><label for="nonbinary">Non-Binary</label>
-            <input type=radio name="genderIdentity" value="other" id="other"><label for="other">Other</label>
-            <input type=radio name="genderIdentityt" value="preferNotToSay" id="preferNotToSay"><label for="preferNotToSay">Prefer not to say</label>
-    </div>
-        <!-- why did I not end up needing the "id=accept" portion?-->
-    <h3>A short decription about myself:</h3>
-        <textarea type="comment" cols="20" rows="3"> </textarea>
-    <div>
-    Favorite Language:
-        <select name = "favLang">
-            <option value="Javascript">Javascript</option>
-            <option value="CSS">CSS</option>
-            <option value="HTML">HTML</option>
-        </select>
-    </div>
-    <h1></h1>
-        <input type="checkbox" name="addToUpdateList" id="accept"><label for="accept">Yes, I would like to receive periodic email updates</label>
-    <h1></h1>
-        <input type="submit" value="Create Account">
+    <form action="Registration Form/">
+        <!-- body opener -->
+        <h1>Registration Form</h1>
+        <div>
+            First Name:* <input type="text" name="first_name">
+        </div>
+        <div>
+            Last Name:* <input type="text" name="last_name">
+        </div>
+        <div>
+            Email Address:* <input type="text" name="email_address">
+        </div>
+        <div>
+            Password:* <input type="" name="password">
+        </div>
+        <div>
+            Confirm Password:* <input type="" name="password">
+        </div>
+        <div>
+            Birthday: <input type="date" name="dob">
+        <div>
+            <p>
+            Gender Identity:
+            </p>
+                <input type=radio name="genderIdentity" value="male" id="male">
+                <label for="male">Male</label>
+                <input type=radio name="genderIdentity" value="female" id="female">
+                <label for="female">Female</label>
+                <input type=radio name="genderIdentity" value="nonbinary" id="nonbinary">
+                <label for="nonbinary">Non-Binary</label>
+                <input type=radio name="genderIdentity" value="other" id="other">
+                <label for="other">Other</label>
+                <input type=radio name="genderIdentityt" value="preferNotToSay" id="preferNotToSay">
+                <label for="preferNotToSay">Prefer not to say</label>
+        </div>
+            
+        A short decription about myself:
+        <div>
+            <textarea type="comment" cols="20" rows="3"> </textarea>
+        </div>
+        <div>
+        Favorite Language:
+            <select name = "favLang">
+                <option value="Javascript">Javascript</option>
+                <option value="CSS">CSS</option>
+                <option value="HTML">HTML</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="addToUpdateList" id="accept"><label for="accept">Yes, I would like to receive periodic email updates</label>
+
+        </div>
+        <div>
+            <input type="submit" value="Create Account">
+        </div>
+        <h5>*Indicates a required field</h5>
+
+        </form>
     </body>
 <!-- body closer -->
 </html>
