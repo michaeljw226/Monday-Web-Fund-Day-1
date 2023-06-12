@@ -11,32 +11,42 @@
     <!-- body opener -->
     <h1>Registration Form</h1>
     <div>
-    <h3>First Name:*</h3><input type="text" name="first_name">
+        First Name:* <input type="text" name="first_name">
+        <h1></h1>
     </div>
     <div>
-    <h3>Last Name:*</h3><input type="text" name="last_name">
+        Last Name:* <input type="text" name="last_name">
+        <h1></h1>
     </div>
     <div>
-    <h3>Email Address:*</h3><input type="text" name="email_address">
+        Email Address:* <input type="text" name="email_address">
+        <h1></h1>
     </div>
-    <h3>Password:*</h3><input type="" name="password">
-    <h3>Birthday:</h3><input type="date" name="dob">
-    <h3>Gender Identity:</h3>
-        <input type=radio name="font" value="male" id="male"><label for="male">Male</label>
-        <input type=radio name="font" value="female" id="female"><label for="female">Female</label>
-        <input type=radio name="font" value="nonbinary" id="nonbinary"><label for="nonbinary">Non-Binary</label>
-        <input type=radio name="font" value="other" id="other"><label for="other">Other</label>
-        <input type=radio name="font" value="preferNotToSay" id="preferNotToSay"><label for="preferNotToSay">Prefer not to say</label>
-            
+    <div>
+        Password:* <input type="" name="password">
+        <h1></h1>
+    </div>
+    <div>
+        Birthday: <input type="date" name="dob">
+    <div>
+        Gender Identity:
+            <input type=radio name="genderIdentity" value="male" id="male"><label for="male">Male</label>
+            <input type=radio name="genderIdentity" value="female" id="female"><label for="female">Female</label>
+            <input type=radio name="genderIdentity" value="nonbinary" id="nonbinary"><label for="nonbinary">Non-Binary</label>
+            <input type=radio name="genderIdentity" value="other" id="other"><label for="other">Other</label>
+            <input type=radio name="genderIdentityt" value="preferNotToSay" id="preferNotToSay"><label for="preferNotToSay">Prefer not to say</label>
+    </div>
         <!-- why did I not end up needing the "id=accept" portion?-->
     <h3>A short decription about myself:</h3>
         <textarea type="comment" cols="20" rows="3"> </textarea>
-    <h3>Favorite Language:</h3>
+    <div>
+    Favorite Language:
         <select name = "favLang">
             <option value="Javascript">Javascript</option>
             <option value="CSS">CSS</option>
             <option value="HTML">HTML</option>
         </select>
+    </div>
     <h1></h1>
         <input type="checkbox" name="addToUpdateList" id="accept"><label for="accept">Yes, I would like to receive periodic email updates</label>
     <h1></h1>
